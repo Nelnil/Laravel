@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?font familiy=Poppins :wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    color: white;
+}
+span{
+    color: #737373;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    backdrop-filter: blur(30px);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.logo{
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: #737373;
+}
+.cover-web{
+    background: linear-gradient(to right, #5CE1E6, #38B6FF);
+} 
+.img{
+    margin-left: 150px;
+    position: cover;
+}
+.home{
+    height: 100vh;
+    background: url("images/gradient.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content{
+    max-width: 600px;
+    color:#ffffff;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #737373;
+}
+.home-content p{
+    font-size: 16px;
+    line-height: 23px;
+    margin: 20px 0 40px;
+}
+.about{
+    align-items: center;
+    background: linear-gradient(to right, #5CE1E6, #38B6FF);
+    background-size: cover;
+    text-align: center;
+    padding: 70px;
+}
+.about h2{
+    top: 100%;
+    margin-top: 30px;
+}
+.heading{
+    font-size: 40px;
+    color: #ffffff;
+}
+.about-img{
+    position: relative;
+}
+.about-content{
+    line-height: 23px;
+}
+.about-content h3{
+    font-size: 40px;
+    line-height: 25px;
+    color: #737373;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.education{
+    height: 200vh;
+    align-items: center;
+    background: linear-gradient(to right, #5CE1E6, #38B6FF);
+    background-size: cover;
+    padding: 30px;
+}
+.education h2{
+    margin-top: 65px;
+}
+.heading{
+    margin-top: 100px;
+    color: #ffffff;
+    text-align: center;
+}
+.container-tk h3{
+    text-align: center;
+}
+.container-tk{
+    position: relative;
+    background: #ffffff;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding: 40px 40px;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(255,255,255,.3);
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2b2b2b;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.container-sd h3{
+    text-align: center;
+}
+.container-sd{
+    position: relative;
+    background: #ffffff;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding: 40px 40px;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(255,255,255,.3);
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2b2b2b;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.container-smp h3{
+    text-align: center;
+}
+.container-smp{
+    position: relative;
+    background: #ffffff;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding: 40px 40px;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(255,255,255,.3);
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2b2b2b;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.container-smk h3{
+    text-align: center;
+}
+.container-smk{
+    position: relative;
+    background: #ffffff;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding: 40px 40px;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(255,255,255,.3);
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2b2b2b;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.ukuran-grafik {
+    width: 300px; 
+    height: 200px; 
+}
+
+.contact{
+    height: 100vh;
+    background: url("images/gradient.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.text-contact{
+    max-width: 600px;
+}
+.text-contact h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 100px;
+}
+.text-contact h4{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-logo {
+    height: 200px;
+    position: bottom;
+    bottom: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-logo a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    border: 5px solid white;
+    border-radius: 50%;
+    font-size: 80px;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    padding: 20px;
+}
+
+.home-logo a:hover {
+    color: #5CE1E6;
+}
+
+.home-logo a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: white;
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-logo a:hover::before {
+    width:100%;
+}
